@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background-color: rgb(21, 61, 108);
+  color: rgb(212, 219, 225);
+
+}
+
+header h2{
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(223, 131, 49);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}

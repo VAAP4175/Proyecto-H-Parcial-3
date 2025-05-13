@@ -1,0 +1,80 @@
+body{
+    background-image: url('uicslp1.jpg');
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+  }
+  button {
+    background-color: #ffffff;
+    color: blue;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border: 0;
+    padding: 8px;
+    box-shadow: 0 4px 4px rgba(141, 141, 141, 0.541);
+  
+  }
+  button:hover{
+    background-color: hsl(199, 100%, 50%);
+  color: black;
+  }
+  button:active{
+    background-color: #b5d6ff;
+  }
+  
+  .log {
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(139, 139, 139, 0.555);
+    width: 300px;
+  
+  }
+  h1{
+    text-align:center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:#154c8f;
+  
+  }
+  label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  
+  }
+  input{
+    width:100%;
+    padding: 10px;
+    margin-bottom:15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    padding:10px 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: -#4d92ec;
+  
+  }
+  input:placeholder{
+    color: rgb(147, 216, 236);
+    font-style: italic;
+  
+  }
+  input:focus {
+    border-bottom:2px solid rgb(0, 255, 255);
+  
+  }

@@ -1,0 +1,143 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: rgb(21, 61, 108);
+    color: rgb(212, 219, 225);
+  
+  }
+  
+  body{
+    margin: 0px;
+  
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .img-logo {
+    margin: auto;
+    height: 50px;
+    padding-right: 10px;
+    border-radius: 1%;
+  }
+  
+  .logo h2 {
+    margin: 10px auto;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Verdana';
+  }
+  .cuenta {
+    display: flex;
+    
+  }
+  
+  .img-cuenta {
+    margin: auto;
+    height: 70px;
+    padding-right: 8px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .grupos{
+    display: flex;
+  }
+  
+  .img-grupos {
+    margin: auto;
+    height: 70px;
+    padding-right: 8px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .horarios {
+    display: flex;
+  }
+  
+  .img-horarios {
+    margin: auto;
+    height: 70px;
+    padding-right: 8px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .salir {
+    display: flex;
+  }
+  
+  .img-salir {
+    margin: auto;
+    height: 60px;
+    padding-right: 8px;
+    border-radius: 50%;
+    width: 85px;
+    height: 95px;
+  }
+  
+  .salir h2 {
+    margin: 10px auto;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Verdana';
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 4px 8px 6px rgba(80, 69, 69, 0.2);
+    padding: 15px 0px;
+    margin: 10px;
+    max-width: 215px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  
+  }
+  .button-container{
+  display: flex; /* Utiliza flexbox para alinear los botones en fila */
+        justify-content: center; /* Centra los botones horizontalmente */
+        align-items: center; /* Alinea verticalmente los botones en el centro */
+        padding: 200px; /* Espacio alrededor del contenedor */
+        gap: 25px; /* Espacio entre los botones */
+        
+  }
+  
+  
+  button {
+  background-color: white; /* Color de fondo gris claro */
+  border: 0px solid #414546; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 18px;
+  padding: 15px 20px; /* Relleno interno */
+  margin: 1px; /* Margen entre botones */
+  text-align: center; /* Texto centrado */
+  text-decoration: none; /* Quita la decoración del texto */
+  color: #000000; /* Color del texto gris oscuro */
+  font-weight: bold; /* Texto en negrita */
+  display: flex; /* Para alinear el icono y el texto */
+  align-content: center;
+  align-items: center; 
+  height:  12vh;/* Alinea verticalmente el icono y el texto */
+  gap: 10px; /* Espacio entre el icono y el texto */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+  cursor: pointer;
+  }
+  
+  footer{
+    background-color: rgb(223, 131, 49);
+    color: antiquewhite;
+    padding: 10px;
+    font-family:'Segoe UI';
+    text-align:center;
+  }
+  

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e0e0e0;
+  
+  min-height: 100vh;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 180px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  position: fixed;
+}
+
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 15px 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.menu li i {
+  margin-right: 10px;
+}
+
+.menu li.active {
+  background-color: #e8ecff;
+  font-weight: bold;
+  color: #4a4aff;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: rgb(21, 61, 108);
+  color: rgb(212, 219, 225);
+
+}
+
+header h2{
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{ 
+display: flex;
+}
+
+.logo img{
+ height: 5px; 
+ margin: auto;
+ padding-right: 10px;
+}
+.secregistroG{
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(223, 131, 49);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.registro{
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+}
